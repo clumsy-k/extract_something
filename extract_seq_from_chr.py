@@ -17,12 +17,12 @@ output_name = raw_input("Please input file name: ")
 
 inputfile = open(sys.argv[1], 'r')
 
-flag = False
-num		= int(usr_in_chr_num)
+flag 	= False
+num	= int(usr_in_chr_num)
 start	= int(usr_in_start)
-end		= int(usr_in_end)
+end	= int(usr_in_end)
 strand	= int(usr_in_strand)
-seq		= ''
+seq	= ''
 extract	= ''
 
 # 配列をA/T, T/A, G/C, C/Gに置換する関数
